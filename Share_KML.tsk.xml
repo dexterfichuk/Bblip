@@ -1,0 +1,125 @@
+<TaskerData sr="" dvi="1" tv="4.7u3m">
+	<Task sr="task127">
+		<cdate>1443538153952</cdate>
+		<edate>1443576428802</edate>
+		<id>127</id>
+		<nme>Share KML</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>664</code>
+			<Str sr="arg0" ve="3">theIntent</Str>
+			<Str sr="arg1" ve="3">Intent</Str>
+			<Str sr="arg2" ve="3">new
+{Intent} ()</Str>
+			<Str sr="arg3" ve="3">Intent.ACTION_SEND</Str>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Str sr="arg9" ve="3"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>664</code>
+			<Str sr="arg0" ve="3"/>
+			<Str sr="arg1" ve="3">theIntent</Str>
+			<Str sr="arg2" ve="3">setAction
+{Intent} (String)</Str>
+			<Str sr="arg3" ve="3">android.intent.action.SEND</Str>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Str sr="arg9" ve="3"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>664</code>
+			<Str sr="arg0" ve="3"/>
+			<Str sr="arg1" ve="3">theIntent</Str>
+			<Str sr="arg2" ve="3">setType
+{Intent} (String)</Str>
+			<Str sr="arg3" ve="3">application/zip</Str>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Str sr="arg9" ve="3"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>664</code>
+			<Str sr="arg0" ve="3">parsedurl</Str>
+			<Str sr="arg1" ve="3">Uri</Str>
+			<Str sr="arg2" ve="3">parse
+{Uri} (String)</Str>
+			<Str sr="arg3" ve="3">file:///sdcard/Download/%EXFILENAME</Str>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Str sr="arg9" ve="3"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>664</code>
+			<Str sr="arg0" ve="3"/>
+			<Str sr="arg1" ve="3">theIntent</Str>
+			<Str sr="arg2" ve="3">putExtra
+{Intent} (String, Parcelable)</Str>
+			<Str sr="arg3" ve="3">android.intent.extra.STREAM</Str>
+			<Str sr="arg4" ve="3">parsedurl</Str>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Str sr="arg9" ve="3"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>664</code>
+			<Str sr="arg0" ve="3"/>
+			<Str sr="arg1" ve="3">theIntent</Str>
+			<Str sr="arg2" ve="3">addFlags
+{Intent} (int)</Str>
+			<Str sr="arg3" ve="3">theIntent.FLAG_ACTIVITY_FORWARD_RESULT</Str>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Str sr="arg9" ve="3"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>664</code>
+			<Str sr="arg0" ve="3"/>
+			<Str sr="arg1" ve="3">theIntent</Str>
+			<Str sr="arg2" ve="3">addFlags
+{Intent} (int)</Str>
+			<Str sr="arg3" ve="3">theIntent.FLAG_ACTIVITY_NEW_TASK</Str>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Str sr="arg9" ve="3"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>664</code>
+			<Str sr="arg0" ve="3"/>
+			<Str sr="arg1" ve="3">CONTEXT</Str>
+			<Str sr="arg2" ve="3">startActivity
+{} (Intent)</Str>
+			<Str sr="arg3" ve="3">theIntent</Str>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Str sr="arg9" ve="3"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>512</code>
+			<Int sr="arg0" val="1"/>
+		</Action>
+	</Task>
+</TaskerData>
